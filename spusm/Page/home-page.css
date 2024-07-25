@@ -8,8 +8,6 @@ body{
 .main-container{
     width: 100vw;
     height: 100vh;
-   
-
 }
 
 .nav{
@@ -49,4 +47,25 @@ body{
     color: #E2B622;
     font-size: 20px;
 
+}
+
+.hero {
+    background-image: url(../../assets/hero_2.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-title {
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+    color: #1C592F;
+
+}
+
+span {
+    color: #E2B622;
 }
