@@ -3,12 +3,12 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: skyblue;
 }
 
 .main-container{
     width: 100vw;
     height: 100vh;
-
 }
 
 .contacts{
@@ -46,4 +46,64 @@ ul{
     background-color: #1C592F;
     display: flex;
     justify-content: center;
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.left-nav{
+    /*border: 1px solid green;*/
+    width: max-content;
+}
+
+.right-nav{
+    width: 80%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.option{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #1C592F;
+    font-size: 20px;
+}
+
+.active {
+    padding-left: 50px;
+    text-decoration: none;
+    color: #E2B622;
+    font-size: 20px;
+
+}
+
+.hero {
+    background-image: url(../../assets/hero_2.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-title {
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+    color: #1C592F;
+
+}
+
+span {
+    color: #E2B622;
 }
