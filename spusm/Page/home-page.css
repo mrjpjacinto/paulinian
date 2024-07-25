@@ -2,11 +2,51 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: skyblue;
 }
 
 .main-container{
     width: 100vw;
     height: 100vh;
-    border: 10px solid magenta;
+   
+
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.left-nav{
+    /*border: 1px solid green;*/
+    width: max-content;
+}
+
+.right-nav{
+    width: 80%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.option{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #1C592F;
+    font-size: 20px;
+}
+
+.active {
+    padding-left: 50px;
+    text-decoration: none;
+    color: #E2B622;
+    font-size: 20px;
 
 }
