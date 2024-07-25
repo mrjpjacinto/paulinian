@@ -6,48 +6,14 @@ body{
     background-color: skyblue;
 }
 
+/* MAIN CONTAINER */
 .main-container{
     width: 100vw;
     height: 100vh;
 }
+/* MAIN CONTAINER */
 
-.contacts{
-    text-align: center;
-    padding: 3px;
-    background-color: white;
-    color: black;
-}
-
-h3{
-    text-align: left;
-    padding-left: 20px;
-}
-.contact-list{
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    justify-content: space-around;
-}
-
-.contact-1, .contact-2, .contact-3, .contact-4{
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-}
-
-ul{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    list-style-type: none;
-}
-
-.footer-down{
-    background-color: #1C592F;
-    display: flex;
-    justify-content: center;
-}
-
+/* NAV BAR */
 .nav{
     display: flex;
     background-color: white;
@@ -86,7 +52,9 @@ ul{
     font-size: 20px;
 
 }
+/* NAV BAR */
 
+/* HERO SECTION */
 .hero {
     background-image: url(../../assets/hero_2.png);
     height: 100%;
@@ -108,3 +76,44 @@ ul{
 span {
     color: #E2B622;
 }
+/* HERO SECTION */
+
+/* FOOTER SECTION */
+.contacts{
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+
+h3{
+    text-align: left;
+    padding-left: 20px;
+}
+.contact-list{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.contact-1, .contact-2, .contact-3, .contact-4{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-type: none;
+}
+
+.footer-down{
+    background-color: #1C592F;
+    display: flex;
+    justify-content: center;
+}
+/* FOOTER SECTION */
+
