@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     background-color: skyblue;
 }
-
+/*Nav*/
 .nav{
     display: flex;
     background-color: white;
@@ -15,6 +15,7 @@ body{
     justify-content: space-between;
     color: #1C592F;
 }
+
 .left-nav{
     display: flex;
     width: max-content;
@@ -25,4 +26,42 @@ h3{
 }
 .right-nav a{
   color: #1C592F;
+}
+/*Nav*/
+
+.divider{
+    height:50px;
+    background-color: white;
+}
+
+.hero-container-y{
+    background-color: #E2B622;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    color: #1C592F;
+}
+.hero-container-g{
+    background-color: #1C592F;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    color: white;
+}
+
+.icon{
+    width: 35%;
+    padding-left: 70px;
+
+}
+.content{
+    width: 65%;
+    padding-left: 50px;
+    font-size: 20px;
+
+}
+.footer{
+    background-color: #1C592F;
+    display: flex;
+    justify-content: center;
 }
