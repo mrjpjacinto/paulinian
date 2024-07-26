@@ -1,31 +1,34 @@
 body{
     font-family: 'inter';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* NAV SECTION */
-.left-nav img{
-    width: 200px;
-    height: 50px;
-}
-
-.right-nav a{
-    color: #1C592F;
-}
-
-.left-nav{
-    display: flex;
-}
-
-h3{
-    padding-left: 10px;
-    color: #1C592F;
-}
 
 .nav{
     display: flex;
     justify-content: space-between;
     background-color: white;
     padding: 14px 16px;
+    align-items: center;
+    text-align: center;
+    color: #1C592F;
+
+}
+
+.left-nav{
+    display: flex;
+    width: max-content;
+}
+
+h3{
+    padding-left: 10px;
+    
+}
+.right-nav a{
+    color: #1C592F;
 }
 /* NAV SECTION */
 
