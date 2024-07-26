@@ -1,0 +1,28 @@
+body{
+    font-family: 'inter';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    align-items: center;
+    justify-content: space-between;
+    color: #1C592F;
+}
+.left-nav{
+    display: flex;
+    width: max-content;
+
+}
+h3{
+    padding-left: 10px;
+}
+.right-nav a{
+  color: #1C592F;
+}
