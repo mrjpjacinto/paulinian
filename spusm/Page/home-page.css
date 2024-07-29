@@ -24,6 +24,9 @@ body{
     align-items: center;
     /*border: 1px solid red;*/
 }
+a:hover{
+    color: #E2B622;
+}
 .left-nav{
     /*border: 1px solid green;*/
     width: max-content;
@@ -42,14 +45,14 @@ body{
     padding-left: 50px;
     text-decoration: none;
     color: #1C592F;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .active {
     padding-left: 50px;
     text-decoration: none;
     color: #E2B622;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 /* NAV BAR */
@@ -67,7 +70,7 @@ body{
 .hero-title {
     text-align: center;
     padding: 2%;
-    font-size: 50px;
+    font-size: 35px;
     color: #1C592F;
     margin: 0;
 
@@ -81,26 +84,36 @@ span {
 /* FOOTER SECTION */
 .contacts{
     text-align: center;
-    padding: 3px;
+    padding: 5px;
+    padding-bottom: 10;
     background-color: white;
     color: black;
 }
 
 h3{
     text-align: left;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
+
 .contact-list{
     display: flex;
-    padding: 10px;
-    margin: 10px;
     justify-content: space-around;
 }
 
-.contact-1, .contact-2, .contact-3, .contact-4{
+.contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
     margin: 10px;
     padding: 10px;
     display: flex;
+    font-size: 10px;
+}
+ 
+.pic1{
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 ul{
@@ -108,12 +121,16 @@ ul{
     flex-direction: column;
     text-align: left;
     list-style-type: none;
+    padding-left: 20px;
 }
 
 .footer-down{
-    background-color: #1C592F;
+    background-color: #1C592F; 
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 38px;
+    padding: 15px;
 }
 /* FOOTER SECTION */
 

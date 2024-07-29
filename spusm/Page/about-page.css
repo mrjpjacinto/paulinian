@@ -23,7 +23,7 @@ body{
     width: max-content;
 }
 
-h3{
+h4{
     padding-left: 10px;
     
 }
@@ -77,8 +77,8 @@ h1{
 }
 
 .icon img{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
 }
 
@@ -95,6 +95,8 @@ h1{
     background-color: #1C592F;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 38px;
     padding: 15px;
 }
 
