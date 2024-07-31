@@ -100,17 +100,25 @@ h3{
 
 .contact-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.contact-up, .contact-down{
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
     margin: 10px;
+    margin-right: 70px;
     padding: 10px;
     display: flex;
     font-size: 10px;
+    justify-content: space-between;
+
 }
  
-.pic1{
+.icons img{
     border: 2px solid;
     width: 40px;
     height: 40px;
@@ -139,7 +147,7 @@ ul{
 
 
 /* MOBILE STYLE */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     html{
         width: 100vw;
         height: 100vh;
@@ -166,6 +174,9 @@ ul{
         height: 260px;
         width:100% ;
     }
+    .hero h1{
+        font-size: 100%;
+    }
     footer{
         width:100%;
     }
@@ -179,11 +190,14 @@ ul{
         align-items: center;
         flex-direction: column;
     }
+    .contact-up, .contact-down{
+        display: flex;
+        flex-direction: column;
+    }
     footer img{
         width: 100%;
     }
     .icons{
-        border: 1px solid red;
         width: 70%;
         display: flex;
         flex-direction: column;
@@ -199,4 +213,48 @@ ul{
         justify-content: center;
         align-items: center;
     }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    .nav{
+        display: flex;   
+    }
+    .hero{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        border: 1px solid red;
+        justify-content: center;
+    }
+    .hero h1{
+        text-align: center;
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+    }
+    .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
+        margin: 10px;
+        margin-right: 60px;
+        padding: 10px;
+        display: flex;
+        font-size: 10px;
+    }
+
+    .contact-up{
+        display: flex;
+
+    }
+    .contact-down{
+        display: flex;
+        flex-direction: ;
+    }
+
+
+
+
+
 }
