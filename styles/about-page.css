@@ -9,18 +9,21 @@ body{
 
 .nav{
     display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding: 14px 16px;
-    align-items: center;
+    background-color: rgba(255, 255, 255, 255);
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     color: #1C592F;
-
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .left-nav{
     display: flex;
     width: max-content;
+    align-items: center;
 }
 
 h4{
@@ -34,6 +37,27 @@ h4{
     padding: 14px 16px;
     align-items: center;
     text-align: center;
+}
+
+.option{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #1C592F;
+    font-size: 15px;
+}
+
+.active {
+    padding-left: 50px;
+    text-decoration: none;
+    color: #E2B622;
+    font-size: 15px;
+}
+
+#click{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .right-nav a{
@@ -77,9 +101,8 @@ h1{
 }
 
 .icon img{
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
+    width: 500px;
+    height: 500px;
 }
 
 .icon{

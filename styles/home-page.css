@@ -3,7 +3,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
 }
 
 /* MAIN CONTAINER */
@@ -16,13 +16,14 @@ body{
 /* NAV BAR */
 .nav{
     display: flex;
-    background-color: white;
+    background-color:rgba(255, 255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     align-items: center;
-    /*border: 1px solid red;*/
+    position: sticky;
+    top: 0;
 }
 a:hover{
     color: #E2B622;
@@ -134,8 +135,11 @@ ul{
 }
 /* FOOTER SECTION */
 
+
+
+
 /* MOBILE STYLE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     html{
         width: 100vw;
         height: 100vh;
@@ -195,9 +199,4 @@ ul{
         justify-content: center;
         align-items: center;
     }
-}
-
-@media only screen and (min-width: 768px) and (max-width:1024px ){
-
-
 }

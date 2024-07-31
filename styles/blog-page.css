@@ -3,23 +3,46 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
 }
 /*Nav*/
 .nav{
     display: flex;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     align-items: center;
     justify-content: space-between;
     color: #1C592F;
+    position: sticky;
+    top: 0;
 }
 
 .left-nav{
     display: flex;
     width: max-content;
+    align-items: center;
 }
+
+#click{
+    text-decoration: none;
+}
+
+.option{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #1C592F;
+    font-size: 15px;
+}
+
+.active {
+    padding-left: 50px;
+    text-decoration: none;
+    color: #E2B622;
+    font-size: 15px;
+
+}
+
 h3{
     padding-left: 10px;
 }
@@ -35,7 +58,6 @@ h3{
 
 .hero-container{
     display: flex;
-
     justify-content: space-around;
     color: #1C592F;
 }
