@@ -58,7 +58,6 @@ h3{
 
 .hero-container{
     display: flex;
-
     justify-content: space-around;
     color: #1C592F;
 }
