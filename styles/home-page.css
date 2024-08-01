@@ -3,22 +3,23 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color: #f2f2f2;
 }
 
 /* MAIN CONTAINER */
 .main-container{
     width: 100vw;
     height: 100vh;
+    background-color: #f2f2f2;
 }
 /* MAIN CONTAINER */
 
 /* NAV BAR */
 .nav{
     display: flex;
-    background-color:rgba(255, 255, 255, 255);
+    background-color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 15px;
     text-decoration: none;
     font-size: 17px;
     align-items: center;
@@ -28,11 +29,6 @@ body{
 a:hover{
     color: #E2B622;
 }
-.left-nav{
-    /*border: 1px solid green;*/
-    width: max-content;
-}
-
 .right-nav{
     width: 80%;
     color: green;
@@ -60,7 +56,7 @@ a:hover{
 
 /* HERO SECTION */
 .hero {
-    background-image: url(../../assets/hero_2.png);
+    background-image: url(../assets/5.png);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -68,26 +64,16 @@ a:hover{
     background-position: center;
 }
 
-.hero-title {
-    text-align: center;
-    padding: 2%;
-    font-size: 35px;
-    color: #1C592F;
-    margin: 0;
-
-}
-
-span {
-    color: #E2B622;
-}
 /* HERO SECTION */
 
 /* FOOTER SECTION */
 .contacts{
     text-align: center;
     padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-bottom: 10;
-    background-color: white;
+    background-color: #f2f2f2;
     color: black;
 }
 
@@ -109,17 +95,19 @@ h3{
 }
 
 .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
-    margin: 10px;
-    margin-right: 70px;
-    padding: 10px;
+    margin: 5px;
+    margin-right: 55px;
+    padding: 5px;
     display: flex;
-    font-size: 10px;
+    font-size: 13px;
     justify-content: space-between;
-
+}
+.contact-5{
+    padding-right: 0;
 }
  
 .icons img{
-    border: 2px solid;
+    border: 1px solid;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -147,7 +135,7 @@ ul{
 
 
 /* MOBILE STYLE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
     html{
         width: 100vw;
         height: 100vh;
@@ -162,16 +150,26 @@ ul{
     .right-nav{
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-left: 0;
+        
+    }
+    .right-nav b{
+        width: 100%;
+        display: flex;
+        margin: 0;
         flex-direction: row;
         align-items: center;
-        padding: 0;
+        justify-content: space-around;
     }
     .right-nav a{
-        padding-left:10px ;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-around;
     }
     .hero{
-        height: 260px;
+        height: 200px;
         width:100% ;
     }
     .hero h1{
@@ -190,9 +188,15 @@ ul{
         align-items: center;
         flex-direction: column;
     }
+
+    .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
+        font-size: 15px;
+        display: flex;
+        padding-left: 28px;
+    }
     .contact-up, .contact-down{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;   
     }
     footer img{
         width: 100%;
@@ -214,20 +218,28 @@ ul{
         align-items: center;
     }
 }
+/* MOBILE STYLE */
 
+/* TABLET STYLE */
 @media only screen and (min-width: 601px) and (max-width: 1024px){
     .nav{
         display: flex;   
     }
+    .option, .active{
+        font-size: 17px;
+    }
     .hero{
         display: flex;
         margin: 0;
-        width: 100%;
-        border: 1px solid red;
+        width: 99.5%;
+        height: 500px;
         justify-content: center;
     }
     .hero h1{
         text-align: center;
+    }
+    .contacts{
+        background-color: #f2f2f2;
     }
     .contact-list{
         display: flex;
@@ -235,25 +247,24 @@ ul{
         align-items: center;
         justify-content: center; 
         padding: 0;
+        padding-left: 10px;
     }
     .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
         margin: 10px;
-        margin-right: 60px;
+        margin-right: 45px;
         padding: 10px;
         display: flex;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .contact-up{
         display: flex;
-
+        padding-right: 0;
     }
     .contact-down{
         display: flex;
     }
 
 
-
-
-
 }
+/* TABLET STYLE */

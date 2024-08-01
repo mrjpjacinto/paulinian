@@ -5,12 +5,16 @@ body{
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
 }
+
+.main-container{    
+    background-color: #f2f2f2;
+}
 /*Nav*/
 .nav{
     display: flex;
-    background-color: rgba(255, 255, 255, 255);
+    background-color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 15px;
     align-items: center;
     justify-content: space-between;
     color: #1C592F;
@@ -53,7 +57,7 @@ h3{
 
 .divider{
     height:50px;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 .hero-container{
@@ -95,3 +99,5 @@ h3{
     height: 38px;
     padding: 15px;
 }
+
+
