@@ -222,12 +222,18 @@ ul{
 
 /* TABLET STYLE */
 @media only screen and (min-width: 601px) and (max-width: 1024px){
+ /* NAVBAR */
     .nav{
         display: flex;   
     }
     .option, .active{
         font-size: 17px;
     }
+    .right-nav{
+        font-size: 17px;
+    }
+
+/* HERO-SECTION */
     .hero{
         display: flex;
         margin: 0;
