@@ -72,19 +72,19 @@ h3{
 }
 
 .icon-y, .icon-k{
-    background-color: #E2B622;
+    background-color: #f2f2f2;
     width: 100%; 
-    height: 500px;
+    height: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .icon-g, .icon-l{
-    background-color: #1C592F;
+    background-color: #f2f2f2;
     flex-direction: row-reverse;
     width: 100%;
-    height: 500px;
+    height: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,33 +92,42 @@ h3{
 
 
 #profile{
-    height: 400px; 
-    border-radius: 50%;
+    border: 2px solid blue;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
 }
 .content1, .content2{
     display: flex;
+    border: 2px solid red;
     flex-direction: column;
     justify-content: center;
-    padding-left: 94px;
     width: 100%;
     height: 100%;
     font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #E8E8E8;
 }
 .content3, .content4, .content5{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 94px;
     width: 100%;
     height: 100%;
     font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #E8E8E8;
 }
 
 .blog-a, .blog-b, .blog-c, .blog-c, .blog-d, .blog-e{
-    padding: 100px;
-    width: 1100px;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, li{
+    margin-left: 30px;
 }
 /* HERO-SECTION */
 
@@ -231,7 +240,6 @@ h3{
         align-items: center;
         width: 95%;
         background-color: #E2B622;
-        padding: 20px;
  
     }
     .blog-b, .blog-d{
@@ -241,11 +249,10 @@ h3{
         width: 95%;
         height: 100%;
         background-color: #1C592F;
-        padding: 20px;
     }
 
     #profile{
-        width: 200px;
+        width: 100%;
         height: 200px;
     }
 
@@ -254,7 +261,7 @@ h3{
         align-items: center;
         justify-content: center;
         width: 90%;
-        padding: 30px;
+        padding: 15px;
         margin: 0; 
     }
 
@@ -263,7 +270,7 @@ h3{
         align-items: center;
         justify-content: center;
         width: 90%;
-        padding: 30px;
+        padding: 15px;
         margin: 0; 
     }
 
