@@ -87,11 +87,15 @@ h3{
 .contact-list{
     display: flex;
     justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact-up, .contact-down{
     display: flex;
     flex-direction: row;
+    gap: 200px;
 }
 
 .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
@@ -99,6 +103,9 @@ h3{
     margin-right: 55px;
     padding: 5px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 13px;
     justify-content: space-between;
 }
@@ -107,10 +114,15 @@ h3{
 }
  
 .icons img{
-    border: 1px solid;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 40px;
+    background-color: #ffffff;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 
+        100% 75%, 50% 100%, 
+        0% 75%, 0% 25%
+    );
 }
 
 ul{
@@ -197,6 +209,7 @@ ul{
     .contact-up, .contact-down{
         display: flex;
         flex-direction: column;   
+        gap: 10px;
     }
     footer img{
         width: 100%;
@@ -263,12 +276,19 @@ ul{
         font-size: 12px;
     }
 
+    .icons img{
+        width: 100px;
+        height: 100px;
+    }
+
     .contact-up{
         display: flex;
         padding-right: 0;
+        gap: 10px;
     }
     .contact-down{
         display: flex;
+        gap: 10px;
     }
 
 
