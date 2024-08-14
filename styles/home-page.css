@@ -68,6 +68,8 @@ a:hover{
 
 /* FOOTER SECTION */
 .contacts{
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 5px;
     margin-top: 20px;
@@ -79,9 +81,10 @@ a:hover{
 
 h3{
     text-align: left;
-    padding-left: 40px;
+    font-size: 30px;
     padding-bottom: 0;
     margin-bottom: 0;
+    font-size: 40px;
 }
 
 .contact-list{
@@ -99,18 +102,13 @@ h3{
 }
 
 .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
-    margin: 5px;
-    margin-right: 55px;
-    padding: 5px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 13px;
     justify-content: space-between;
-}
-.contact-5{
-    padding-right: 0;
 }
  
 .icons img{
@@ -204,7 +202,6 @@ ul{
     .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
         font-size: 15px;
         display: flex;
-        padding-left: 28px;
     }
     .contact-up, .contact-down{
         display: flex;
@@ -266,11 +263,9 @@ ul{
         align-items: center;
         justify-content: center; 
         padding: 0;
-        padding-left: 10px;
     }
     .contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
-        margin: 10px;
-        margin-right: 45px;
+        margin: 20px;
         padding: 10px;
         display: flex;
         font-size: 12px;
